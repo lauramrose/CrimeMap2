@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5A79B11D01DFB2000B9748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A79B01D01DFB2000B9748 /* AppDelegate.swift */; };
+		AD5A79B31D01DFB2000B9748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A79B21D01DFB2000B9748 /* ViewController.swift */; };
+		AD5A79B61D01DFB2000B9748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5A79B41D01DFB2000B9748 /* Main.storyboard */; };
+		AD5A79B81D01DFB2000B9748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5A79B71D01DFB2000B9748 /* Assets.xcassets */; };
+		AD5A79BB1D01DFB2000B9748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5A79B91D01DFB2000B9748 /* LaunchScreen.storyboard */; };
+		AD5A79C31D01E5B5000B9748 /* DataPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A79C21D01E5B5000B9748 /* DataPoints.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD5A79AD1D01DFB2000B9748 /* CrimeMap2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrimeMap2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5A79B01D01DFB2000B9748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD5A79B21D01DFB2000B9748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD5A79B51D01DFB2000B9748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD5A79B71D01DFB2000B9748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5A79BA1D01DFB2000B9748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD5A79BC1D01DFB2000B9748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5A79C21D01E5B5000B9748 /* DataPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPoints.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5A79AA1D01DFB2000B9748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5A79A41D01DFB2000B9748 = {
+			isa = PBXGroup;
+			children = (
+				AD5A79AF1D01DFB2000B9748 /* CrimeMap2 */,
+				AD5A79AE1D01DFB2000B9748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5A79AE1D01DFB2000B9748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A79AD1D01DFB2000B9748 /* CrimeMap2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5A79AF1D01DFB2000B9748 /* CrimeMap2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A79B01D01DFB2000B9748 /* AppDelegate.swift */,
+				AD5A79B21D01DFB2000B9748 /* ViewController.swift */,
+				AD5A79B41D01DFB2000B9748 /* Main.storyboard */,
+				AD5A79B71D01DFB2000B9748 /* Assets.xcassets */,
+				AD5A79B91D01DFB2000B9748 /* LaunchScreen.storyboard */,
+				AD5A79BC1D01DFB2000B9748 /* Info.plist */,
+				AD5A79C21D01E5B5000B9748 /* DataPoints.swift */,
+			);
+			path = CrimeMap2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5A79AC1D01DFB2000B9748 /* CrimeMap2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5A79BF1D01DFB2000B9748 /* Build configuration list for PBXNativeTarget "CrimeMap2" */;
+			buildPhases = (
+				AD5A79A91D01DFB2000B9748 /* Sources */,
+				AD5A79AA1D01DFB2000B9748 /* Frameworks */,
+				AD5A79AB1D01DFB2000B9748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrimeMap2;
+			productName = CrimeMap2;
+			productReference = AD5A79AD1D01DFB2000B9748 /* CrimeMap2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5A79A51D01DFB2000B9748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					AD5A79AC1D01DFB2000B9748 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AD5A79A81D01DFB2000B9748 /* Build configuration list for PBXProject "CrimeMap2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5A79A41D01DFB2000B9748;
+			productRefGroup = AD5A79AE1D01DFB2000B9748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5A79AC1D01DFB2000B9748 /* CrimeMap2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5A79AB1D01DFB2000B9748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5A79BB1D01DFB2000B9748 /* LaunchScreen.storyboard in Resources */,
+				AD5A79B81D01DFB2000B9748 /* Assets.xcassets in Resources */,
+				AD5A79B61D01DFB2000B9748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5A79A91D01DFB2000B9748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5A79B31D01DFB2000B9748 /* ViewController.swift in Sources */,
+				AD5A79C31D01E5B5000B9748 /* DataPoints.swift in Sources */,
+				AD5A79B11D01DFB2000B9748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD5A79B41D01DFB2000B9748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5A79B51D01DFB2000B9748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD5A79B91D01DFB2000B9748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5A79BA1D01DFB2000B9748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD5A79BD1D01DFB2000B9748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5A79BE1D01DFB2000B9748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5A79C01D01DFB2000B9748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrimeMap2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.CrimeMap2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD5A79C11D01DFB2000B9748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrimeMap2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.CrimeMap2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5A79A81D01DFB2000B9748 /* Build configuration list for PBXProject "CrimeMap2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5A79BD1D01DFB2000B9748 /* Debug */,
+				AD5A79BE1D01DFB2000B9748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5A79BF1D01DFB2000B9748 /* Build configuration list for PBXNativeTarget "CrimeMap2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5A79C01D01DFB2000B9748 /* Debug */,
+				AD5A79C11D01DFB2000B9748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5A79A51D01DFB2000B9748 /* Project object */;
+}
